@@ -27,6 +27,11 @@ BOARD_SHIPPING_API_LEVEL := 30
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30
 
+# RRO (Runtime Resource Overlay)
+PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/Snap
+
 # Dynamic partitions setup
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
@@ -141,6 +146,10 @@ PRODUCT_PACKAGES += \
 # Repainter integration
 PRODUCT_PACKAGES += \
     RepainterServicePriv
+
+# Google Photos
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/pixel/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml
 
 # Dex
 ifneq ($(TARGET_BUILD_VARIANT),eng)
