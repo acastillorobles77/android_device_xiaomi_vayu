@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
 # Inherit common ArrowOS configurations
-$(call inherit-product, vendor/bliss/config/common.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # boot animation fix I guess
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -31,6 +31,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_MODEL=M2102J20SI
 
 BUILD_FINGERPRINT := Xiaomi/vayu_global/vayu:12/RKQ1.200826.002/V13.0.3.0.SJUMIXM:user/release-keys
-
-# amogus
 
