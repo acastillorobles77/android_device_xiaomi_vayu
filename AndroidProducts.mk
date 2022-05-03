@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_vayu.mk
+    $(LOCAL_DIR)/lineage_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_vayu-eng \
-    bliss_vayu-userdebug \
-    bliss_vayu-user
+    lineage_vayu-eng \
+    lineage_vayu-userdebug \
+    lineage_vayu-user
