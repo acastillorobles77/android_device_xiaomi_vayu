@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 # Inherit common ArrowOS configurations
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# boot animation fix I guess
+# boot animation fix
 TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := lineage_vayu
@@ -26,7 +26,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="google/raven/raven:12/SD1A.210817.015.A4/7697517:user/release-keys" \
+    PRIVATE_BUILD_DESC="vayu_global-user 12 SKQ1.211006.001 V13.0.3.0.SJUMIXM release-keys" \
     PRODUCT_NAME=vayu_global \
     PRODUCT_MODEL=M2102J20SI
 
