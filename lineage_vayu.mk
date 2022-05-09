@@ -26,9 +26,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys" \
+    PRIVATE_BUILD_DESC="google/raven/raven:12/SD1A.210817.015.A4/7697517:user/release-keys" \
     PRODUCT_NAME=vayu_global \
     PRODUCT_MODEL=M2102J20SI
 
-BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
+BUILD_FINGERPRINT := google/raven/raven:12/SD1A.210817.015.A4/7697517:user/release-keys
 
