@@ -32,3 +32,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := google/raven/raven:12/SP2A.220505.002/8353555:user/release-keys
 
+# Add-ons
+# Device Settings
+$(call inherit-product-if-exists, vendor/xiaomi/devicesettings/config.mk)
+
