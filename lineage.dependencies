@@ -19,7 +19,7 @@
     "remote": "github",
     "repository": "acastillorobles77/vendor_xiaomi_miuicamera",
     "target_path": "vendor/xiaomi/miuicamera",
-    "branch": "master"
+    "branch": "12"
   }
 ]
 
