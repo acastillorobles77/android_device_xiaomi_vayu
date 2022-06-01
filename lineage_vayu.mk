@@ -34,5 +34,7 @@ BUILD_FINGERPRINT := google/raven/raven:12/SP2A.220505.002/8353555:user/release-
 
 # Add-ons
 # Device Settings
-$(call inherit-product-if-exists, vendor/xiaomi/devicesettings/config.mk)
+# $(call inherit-product-if-exists, vendor/xiaomi/devicesettings/config.mk)
+# MemeUI Camera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
