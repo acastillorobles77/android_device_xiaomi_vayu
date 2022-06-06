@@ -31,10 +31,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_MODEL=M2102J20SI
 
 BUILD_FINGERPRINT := google/raven/raven:12/SP2A.220505.002/8353555:user/release-keys
-
-# Add-ons
-# Device Settings
-# $(call inherit-product-if-exists, vendor/xiaomi/devicesettings/config.mk)
-# MemeUI Camera
-$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
-
