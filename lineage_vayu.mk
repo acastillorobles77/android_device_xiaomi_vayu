@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 # Inherit common ArrowOS configurations
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Pixel gapps test
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
+
 # boot animation fix
 TARGET_BOOT_ANIMATION_RES := 1080
 
