@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_vayu.mk
+    $(LOCAL_DIR)/syberia_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
     syberia_vayu-eng \
