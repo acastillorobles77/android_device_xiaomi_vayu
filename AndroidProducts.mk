@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_vayu.mk
+    $(LOCAL_DIR)/xdroid_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_vayu-eng \
-    lineage_vayu-userdebug \
-    lineage_vayu-user
+    xdroid_vayu-eng \
+    xdroid_vayu-userdebug \
+    xdroid_vayu-user
