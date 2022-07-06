@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
 # Inherit common ArrowOS configurations
-$(call inherit-product, vendor/xdroid/config/common_full_phone.mk)
+$(call inherit-product, vendor/xdroid/config/common.mk)
 
 # boot animation fix
 TARGET_BOOT_ANIMATION_RES := 1080
