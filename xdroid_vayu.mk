@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 $(call inherit-product, vendor/xdroid/config/common.mk)
 
 # boot animation fix
-TARGET_BOOT_ANIMATION_RES := 1080
+XDROID_BOOT := 1080
 
 PRODUCT_NAME := xdroid_vayu
 PRODUCT_DEVICE := vayu
