@@ -26,9 +26,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="raven-user 13 T1B2.220916.004 9116700 release-keys" \
+    PRIVATE_BUILD_DESC="raven-user 13 TP1A.221005.002 9012097 release-keys" \
     PRODUCT_NAME=vayu_global \
     PRODUCT_MODEL=M2102J20SI
 
-BUILD_FINGERPRINT := google/raven/raven:13/T1B2.220916.004/9116700:user/release-keys
+BUILD_FINGERPRINT := google/raven/raven:13/TP1A.221005.002/9012097:user/release-keys
 
